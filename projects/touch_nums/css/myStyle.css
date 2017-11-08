@@ -1,0 +1,88 @@
+.wrapper{
+    width: 400px;
+    height: 670px;
+    border: 5px solid red;
+}
+.header{
+    background-color: #63adbf;
+    height:170px;
+    margin: 10px;
+    display: block;
+    border: 5px solid rgb(29, 21, 97);
+    overflow: hidden; 
+    padding:10px;
+}
+ul{
+    float: left;
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin: 9px;
+    cursor: pointer;
+}
+.tiny
+{
+    font-size: 12px;
+}
+.timer{
+    background-color: #63adbf;
+    width: 60px;
+    height:70px;
+    border: 5px solid rgb(161, 224, 58);
+    float: right;
+    text-align: center;
+}
+.nextNum{
+    background-color: #63adbf;
+    width: 60px;
+    height:70px;
+    border: 5px solid rgb(144, 32, 148);
+    float: left;
+    text-align: center;
+    /* font-size: 30px; */
+}
+.NewGame{
+    margin: 10px;
+    font-family: 'Times New Roman',Georgia, Times, serif;
+    font-size : 15px;
+    width : 100px;
+    height: 40px;
+    border: 5px solid rgb(82, 62, 8);
+    cursor: pointer;
+}
+.headerTitle{
+    text-align: center;
+    margin-left: 109px;
+    border: 5px solid rgba(14, 150, 55, 0);
+}
+
+.next{
+    /* font-size: 10px; */
+}
+
+#timing{
+    font-size:17px;
+}
+.board{
+    border: 5px red solid;
+    width: 380px;
+    height: 380px;
+
+}
+.wrapTable
+{
+    text-align: center;
+    width: 380px;
+    height: 380px;
+}
+table,td{
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+}
+
+.timing{
+    
+}

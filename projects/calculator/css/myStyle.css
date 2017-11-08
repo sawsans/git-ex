@@ -1,0 +1,14 @@
+table, td,th{
+    border: 1px solid black;
+    width: 350px;
+}
+
+td{
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+
+.output{
+    text-align: right;
+}

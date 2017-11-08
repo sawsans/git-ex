@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper game</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+
+<body onselectstart="return false" onload="initGame(4);">
+    <h1>Minesweeper game</h1>
+    <table border="1">
+        <tbody id="board"></tbody>
+    </table>
+
+    <button onclick="initGame(4);">Restart</button>
+
+    <select onchange="initGame(this.value);" id = "level">
+        <option value = "4" selected>Beginner (4*4)</option>
+        <option value = "6">Medium (6*6)</option>
+        <option value = "8">Expert (8*8)</option>
+    </select>
+    
+<script src="js/minesweeper.js"></script>
+</body>
+
+</html>

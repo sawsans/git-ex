@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Touch Numbers</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+
+<body>
+<div class="wrapper">
+<button class="NewGame" onClick="showTable(4,4);">New Game</button>
+<div class="header">
+<span class = "headerTitle">Choose Your Level</span>
+<ul>
+    <li onClick="showTable(4,4)">Easy<span class="tiny"> (4*4)</span></li>
+    <li onClick = "showTable(5,5)">Hard<span class="tiny"> (5*5)</span></li>
+    <li onClick = "showTable(6,6)">Extreme<span class="tiny"> (6*6)</span></li>
+</ul>
+<div class="nextNum">
+    <span class="next">Next number</span>
+    <span id = "nextNumber" >1</span>
+</div>
+<div class="timer">
+        <span class="timing">Time</span>
+        <span id = "timing">00:00:00</span>
+</div>
+</div>
+<div style="border: 5px rgb(230, 198, 22) solid;" class="wrapTable">
+<table class="board">
+    <tbody id ="gameBoard">
+
+    </tbody>
+</table>
+</div>
+</div>
+ <script src="js/touchNums.js"></script>   
+</body> 
+
+</html>

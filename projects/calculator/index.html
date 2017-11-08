@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Mister Calculator</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/myStyle.css">
+    </head>
+    
+    <body>
+
+        <h1>Calculating . . .<hr/>Like you have never been calculating before</h1>        
+        
+        <table> 
+                <tr> 
+                <td colspan = "5" id="output" class="output"></td> 
+                </tr> 
+                <tr> 
+                <td onclick="memorize('mc')">MC</td> 
+                <td onclick="memorize('mr')">MR</td> 
+                <td onclick="memorize('ms')">MS</td> 
+                <td onclick="memorize('m+')">M+</td> 
+                <td onclick="memorize('m-')">M-</td> 
+                </tr> 
+                <tr> 
+                <td><b>&#8592;</b></td> 
+                <td onclick="resetDisplay('ce')">CE</td> 
+                <td onclick="resetDisplay('c')">C</td> 
+                <td>&plusmn;</td> 
+                <td>&#8730;</td> 
+                </tr> 
+                <tr> 
+                <td onclick="addDigit(this.innerHTML)">7</td>
+                <td onclick="addDigit(this.innerHTML)">8</td> 
+                <td onclick="addDigit(this.innerHTML)">9</td> 
+                <td onclick = "setOperator('/')">&#47;</td>  <!-- / -->
+                <td onclick = "setOperator('%')">&#37;</td> <!-- % -->
+                </tr> 
+                <tr> 
+                <td onclick="addDigit(this.innerHTML)">4</td> 
+                <td onclick="addDigit(this.innerHTML)">5</td>
+                <td onclick="addDigit(this.innerHTML)">6</td> 
+                <td onclick = "setOperator('*')">&#42;</td><!--  * -->
+                <td>1/x</td> 
+                </tr>
+                <tr>
+                <td onclick="addDigit(this.innerHTML)">1</td> 
+                <td onclick="addDigit(this.innerHTML)">2</td>
+                <td onclick="addDigit(this.innerHTML)">3</td> 
+                <td onclick = "setOperator('-')">&#8722;</td> <!-- - -->
+                <td rowspan = "2" onclick = "calculate();">&#61;</td> <!-- = -->
+                </tr> 
+                <tr>
+                <td colspan = "2" onclick="addDigit(this.innerHTML)">0</td> 
+                <td>.</td>
+                <td onclick = "setOperator('+')">&#43;</td> <!-- + -->
+                <!-- <td>&#8722;</td>  -->
+                <!-- <td>&#61;</td>  -->
+                </tr> 
+        </table>
+        
+        <!-- <script src="js/utils.js"></script>     -->
+        <script src="js/main.js"></script>    
+    </body>
+    
+    
+</html>    

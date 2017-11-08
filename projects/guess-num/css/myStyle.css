@@ -1,0 +1,44 @@
+body {
+    /*background: rgb(3, 97, 107);*/
+    /* background-image: url('../img/maxresdefault.jpg'); */
+    /* background-image: url('../img/G1.png'); */
+    background-image: url('../img/bg.jpg'); 
+}
+
+.gameDiv {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:511px;
+    height:250px;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-image: url('../img/gmnBackground.jpg');
+    /* float: left; */
+
+}
+.result {
+    color:#ace1ea;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif ,Georgia;
+    
+}
+
+button{
+        height:50px; 
+        width:100px; 
+        margin: -20px -50px; 
+        position:relative;
+        top:80%; 
+        left:50%;
+        color: rgb(37, 37, 61);
+        font-family: 'Times New Roman', Times, serif ,Georgia;
+        font-size: 30px;
+}
+button:hover { 
+    background-color: #afdeec;
+}
